@@ -1,0 +1,275 @@
+a {
+	color: rgb(14,15,20); /* color2 */
+	font-family: 'Droid Serif', serif;
+	cursor: pointer;
+}
+
+nav a {
+	color: rgb(169,149,132); /* color3 */
+}
+
+a:hover {
+	color: black;
+}
+
+b {
+	color: #661224;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/Background.JPG");
+	background-color: white;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	width: 60%;
+	max-height: 2.5em;
+	margin: 0 20% 40px 20%;
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	font-family: 'Poiret One', cursive;
+	overflow: hidden;
+}
+
+h2 {
+	width: 100%;
+	margin: 0;
+	left: 0;
+	color: black;
+	background-color: rgb(72,24,24); /* color5 */
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+	font-weight: 300;
+	border-bottom: 2px solid black;
+}
+
+h3 {
+	width: 100%;
+	color: #b1cee0;
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	border-bottom: 2px solid black;
+}
+
+i {
+	color: #f05936;
+}
+
+img {
+	margin: 20px;
+}
+
+img.medImage {
+	max-height: 300px;
+}
+
+li {
+	font-weight: normal;
+	line-height: 26px;
+	text-shadow: none;
+}
+
+p {
+	padding: 5px 10px 0 10px;
+	color: rgb(169,149,132); /* color3 */
+	line-height: 26px;
+	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	text-shadow: none;
+}
+
+table {
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+td {
+	width: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+ul {
+	font-weight: bold;
+	line-height: 30px;
+}
+
+#Bio h1 {
+	padding-top: 60px;
+}
+
+#Caption {
+	background-color: rgba(0,0,0,.6);
+    font-size: 24px;
+    color: white;
+    text-shadow: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#copyright {
+	top: 0;
+	right: 10px;
+	position: fixed;
+	text-align: right;
+	color: #888888;
+}
+
+#Contact {
+	position: fixed;
+    top: 40%;
+    width: 60%;
+    margin: 0 20%;
+    padding: 30px;
+    background-color: #eeeeee;
+    -webkit-box-shadow: 0 0 5px 2px black;
+    -moz-box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 5px 2px black;
+}
+
+#image {
+	width: 70%;
+	height: 70%;
+	top: 15%;
+	left: 15%;
+	position: fixed;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#imageContainer {
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	position: fixed;
+	background-color: rgba(238, 238, 238, .85);
+    -webkit-box-shadow: 0 0 5px 2px black;
+    -moz-box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 5px 2px black;
+}
+
+#leftArrowBox {
+	left: 10px;
+}
+
+#rightArrowBox {
+	right: 10px;
+}
+
+#Resume {
+	text-align: left;
+}
+
+.x-button {
+	position: absolute;
+    top: -27px;
+    right: -27px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.color1 {
+	background-color: rgb(15,17,92) !important;
+}
+
+.color2 {
+	background-color: rgb(14,15,20) !important;
+}
+
+.color3 {
+	background-color: rgb(169,149,132) !important;
+}
+
+/*.color3 {
+	background-color: rgb(129,161,183) !important;
+}*/
+
+.color4 {
+	background-color: rgb(11,23,35) !important;
+}
+
+.color5 {
+	background-color: rgb(72,24,24) !important;
+}
+
+.container {
+	width: 100%;
+	background-color: #eeeeee;
+	opacity: .7;
+}
+
+.container.media {
+	opacity: .9;
+}
+
+.expandable-img {
+	cursor: pointer;
+	margin: 5px;
+    height: 150px;
+}
+
+.hide {
+	display: none;
+}
+
+.imgArrowBox {
+	cursor: pointer;
+	height: 20px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+}
+
+.text-black {
+	color: black !important;
+}
+
+.text-white {
+	color: white !important;
+}
+
+.tinyIcon {
+	width: 40px;
+	margin: 0 5px;
+}
+
+.medIcon {
+	width: 100px;
+	margin: 0 5px;
+}
+
+::-webkit-scrollbar {
+      width: 15px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: rgb(72,24,24);
+}
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgb(14,15,20);
+}
+ 
+::-webkit-scrollbar-button {
+      background-color: rgb(169,149,132);
+}
+ 
+::-webkit-scrollbar-corner {
+      background-color: rgb(11,23,35);
+}
