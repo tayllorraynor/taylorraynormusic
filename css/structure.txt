@@ -1,0 +1,37 @@
+width
+height
+max-width
+max-height
+margin
+padding
+top
+left
+bottom
+right
+position
+display
+float
+background-size
+background-image
+background-color
+background-position
+background-attachment
+background-repeat
+text-align
+text-transform
+color
+line-height
+font-size
+font-family
+font-weight
+text-decoration
+overflow
+border
+border-radius
+	border-top-left-radius
+	border-top-right-radius
+	border-bottom-right-radius
+	border-bottom-left-radius
+box-shadow
+cursor
+z-index
