@@ -6,6 +6,7 @@ $(document).ready(function(){
     $('.contact-link').on('click', function() {
 		if ($('#Contact').hasClass('hide')) {
 			$('#Contact').removeClass('hide');
+			$('.overlay').removeClass('hide');
 		}
 	});
 
@@ -20,13 +21,21 @@ $(document).ready(function(){
 		if (!($('#imageContainer').hasClass('hide'))) {
 			$('#imageContainer').addClass('hide');
 		}
+		if( !($('.overlay').hasClass('hide'))) {
+			$('.overlay').addClass('hide');
+		}
 	}
 
 	$('.expandable-img').on('click', function() {
-		$('#image').css('background-image', 'url("' + $(this).attr('src').replace('thumb', 'img').replace('jpg', 'JPG') + '")');
+		$('#image').css('background-image', 'url("' + $(this).attr('src').replace('thumb', 'img') + '")');
 		$('#image').data('value', $(this).data('value'));
 		$('#Caption').html($(this).data('caption'));
 		$('#imageContainer').removeClass('hide');
+		$('.overlay').removeClass('hide');
+	})
+
+	$('.overlay').on('click', function() {
+		closeStuff();
 	})
 
 	$('.imgArrowBox').on('click', function() {
@@ -49,7 +58,7 @@ $(document).ready(function(){
 			newValue = (currentValue + 1 > images.length) ? 1 : currentValue + 1;
 		}
 
-		$('#image').css('background-image', 'url("' + $(images[newValue - 1]).attr('src').replace('thumb', 'img').replace('jpg', 'JPG') + '")');
+		$('#image').css('background-image', 'url("' + $(images[newValue - 1]).attr('src').replace('thumb', 'img') + '")');
 		$('#Caption').html($(images[newValue - 1]).data('caption'));
 		if( $(images[newValue - 1]).data('caption') === '' )
 			$('#Caption').html('');
