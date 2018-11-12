@@ -5,7 +5,7 @@ a {
 }
 
 nav a {
-	color: rgb(169,149,132); /* color3 */
+	color: rgb(255,235,218); /* color3 */
 }
 
 a:hover {
@@ -32,7 +32,7 @@ h1 {
 	max-height: 2.5em;
 	margin: 0 20% 40px 20%;
 	text-align: center;
-	color: black;
+	color: rgb(255,235,218); /* color3 */
 	font-size: 3em;
 	font-family: 'Poiret One', cursive;
 	overflow: hidden;
@@ -43,8 +43,8 @@ h2 {
 	margin: 0;
 	left: 0;
 	color: black;
-	background-color: rgb(72,24,24); /* color5 */
-	text-align: center;
+	padding-top: 20px;
+	text-align: left;
 	text-transform: uppercase;
 	line-height: 50px;
 	font-size: 40px;
@@ -82,7 +82,7 @@ li {
 
 p {
 	padding: 5px 10px 0 10px;
-	color: rgb(169,149,132); /* color3 */
+	color: rgb(255,235,218); /* color3 */
 	line-height: 26px;
 	font-size: 16px;
 	font-family: 'Droid Serif', serif;
@@ -194,7 +194,7 @@ ul {
 }
 
 .color3 {
-	background-color: rgb(169,149,132) !important;
+	background-color: rgb(255,235,218) !important;
 }
 
 /*.color3 {
