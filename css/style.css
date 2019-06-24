@@ -34,7 +34,7 @@ h1 {
 	text-align: center;
 	color: rgb(255,235,218); /* color3 */
 	font-size: 3em;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Verdana, Geneva, sans-serif';
 	overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ h2 {
 	text-transform: uppercase;
 	line-height: 50px;
 	font-size: 40px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Verdana, Geneva, sans-serif';
 	font-weight: 300;
 	border-bottom: 2px solid black;
 }
@@ -215,8 +215,8 @@ ul {
 	opacity: .7;
 }
 
-.container.media {
-	opacity: .9;
+.container.media, .container.live {
+	opacity: 1;
 }
 
 .expandable-img {
@@ -275,7 +275,7 @@ ul {
 }
 
 ::-webkit-scrollbar-track {
-      background-color: rgb(72,24,24);
+      background-color: rgb(34,35,40);
 }
  
 ::-webkit-scrollbar-thumb {
